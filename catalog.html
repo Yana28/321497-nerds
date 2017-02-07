@@ -9,8 +9,9 @@
    <div id="header">
      <div class="container">
        <div class="header-logo">
-         <a href=""><img src="http://placehold.it/150x100"></a>
+         <a href=""><img src="http://placehold.it/150x100" alt="фото"></a>
    </div>
+ </div>
     <nav class="main-navagation">
       <ul>
        <li><a href="#">студия</a></li>
@@ -22,68 +23,86 @@
     </nav>
     <div class="text-container">
     <H1>Магазин готовых шаблонов</H1>
+    </div>
+  </div>
    </header>
    <main>
-   <div class="sidebar-left">
-      <ul>
+     <form>
         <h3>стоимость</h3>
+        <ul>
         <li>от 0 до 15000</li>
       </ul>
-      <ul class="grid">
         <h3>сетка</h3>
-        <li>адаптивная</li>
-        <li>фиксированая</li>
-        <li>резиновая</li>
-      </ul>
-      <ul class="features">
+		<div class="item">
+        <div class="item-name"><input type="radio" id="1"><label for="1">адаптивная</label></div>
+        <div class="item-name"><input type="radio" id="2"><label for="2">фиксированая</label></div>
+        <div class="item-name"><input type="radio" id="3"><label for="3">резиновая</label></div>
+		</div>
         <h3>особенности</h3>
-        <li>слайдер</li>
-        <li>блок преимуществ</li>
-        <li>новости</li>
-        <li>галерея</li>
-        <li>корзина</li>
-      </ul>
-        <a class="btn">показать</a>
-     </div>
+		<div class="selection">
+        <div class="selection-item"><input type="checkbox" id="01"><label for="01">слайдер</label></div>
+        <div class="selection-item"><input type="checkbox" id="02"><label for="02">блок преимуществ</label></div>
+        <div class="selection-item"><input type="checkbox" id="03"><label for="03">новости</label></div>
+        <div class="selection-item"><input type="checkbox" id="04"><label for="04">галерея</label></div>
+        <div class="selection-item"><input type="checkbox" id="05"><label for="05">корзина</label></div>
+      </div>
+        <button type="submit"><a href=#>показать</a></button>
+	</form>
      <div class="sorting">
-       <ul>
-         <li>по цене</li>
-         <li>по типу</li>
-         <li>по названию</li>
-       </ul>
+         <div class="sorting-item"><a href="#">по цене</a></div>
+         <div class="sorting-item"><a href="#">по типу</a></div>
+         <div class="sorting-item"><a href="#">по названию</a></div>
      </div>
      <section class="galery">
-       <img src="http://placehold.it/150x100">
-       <img src="http://placehold.it/150x100">
-       <img src="http://placehold.it/150x100">
-       <img src="http://placehold.it/150x100">
-       <img src="http://placehold.it/150x100">
-       <img src="http://placehold.it/150x100">
-       <a class="btn">1</a>
-       <a class="btn">2</a>
-       <a class="btn">3</a>
-       <button>следующий</button>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+         <div class="hover">
+           <a href="#" class="hover-img">sedona</a>
+         </div>
+       </div>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+       </div>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+       </div>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+       </div>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+       </div>
+       <div class="img"><img src="http://placehold.it/150x100" alt="фото">
+       </div>
+       <div class="pagination">
+         <a class="pagination-item">1</a>
+       <a class="pagination-item">2</a>
+       <a class="pagination-item">3</a>
+       <button><a class="btn-next">следующий</a></button>
+     </div>
      </section>
 
-   </main>
-   <div class="footer">
-     <div class="footer-top">
-     <img src="http://placehold.it/150x100">
-   </div>
-     <div class="footer-middle">
-       <h3>nerds design studio</h3>
-         <p>191186,Санкт-Петербург,<br>
-         ул.Б. Конюшенная,д. 19/8<br>
-         тел. +7(812)275-75-75</p>
-          <a class="btn" href="#">Напишите нам</a>
+     <div class="contacts">
+     <div class="map">
+       <a href="#" class="map-background">карта будет фоном</a>
      </div>
-     <div class="footer-bottom">
+      <div class="adress">
+     <h3>nerds design studio</h3>
+       <p>191186,Санкт-Петербург,<br>
+       ул.Б. Конюшенная,д. 19/8<br>
+       тел. +7(812)275-75-75</p>
+        <a class="btn" href="#">Напишите нам</a>
+      </div>
+    </div>
+    </main>
+
+     <div class="footer">
        <b>Давайте дружить,это выгодно!</b>
        <p>Скидка 10% для друзей из социальных сетей!</p>
-       <a class="social-btn" href="#">Вконтакте</a>
+       <div class="social">
+      <a class="social-btn" href="#">Вконтакте</a>
+    </div>
+       <div class="social">
        <a class="social-btn" href="#">Фейсбук</a>
+     </div>
+       <div class="social">
        <a class="social-btn" href="#">Инстаграм</a>
      </div>
-   </div>
+     </div>
  </body>
 </html>
